@@ -1,0 +1,34 @@
+.statistics {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.percentage {
+  flex: 1;
+  text-align: right;
+  color: #007bff;
+}
